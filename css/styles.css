@@ -85,7 +85,8 @@ float: right;}
   color: #541E3A; }
 
 header {
-  background: white; }
+  background: white;
+  width: 30%; }
 
 header .main_logo span {
   display: inline-block;
@@ -579,6 +580,11 @@ Custom Attributes if required for each device layout.
 
   .sy-pager {
     margin-top: 100px; } }
+
+
+
+
+
 @media (min-width: 480px) and (max-width: 767px) {
   .boxes {
     margin-top: 20px; }

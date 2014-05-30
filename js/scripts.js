@@ -65,8 +65,7 @@ function initialize() {
 
 	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-	var contentString = '200 East 2nd Avenue
-						Spokane, WA 99202';
+	var contentString = 'Location';
 
 	  var infowindow = new google.maps.InfoWindow({
 	      content: contentString

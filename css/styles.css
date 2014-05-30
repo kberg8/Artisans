@@ -240,7 +240,7 @@ footer p {
 .boxes a:hover,
 .boxes a:active {
   background: white;
-  color: #541E3A; }
+  color: white; }
 
 .boxes .hours {
   padding: 10px 20px; }

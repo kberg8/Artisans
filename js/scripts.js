@@ -65,7 +65,9 @@ function initialize() {
 
 	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-	var contentString = '200 East 2nd Avenue Spokane, WA 99202';
+	var contentString = 'Downtown Loaction <br />
+						200 East 2nd Avenue <br />
+						Spokane, WA 99202';
 
 	  var infowindow = new google.maps.InfoWindow({
 	      content: contentString
@@ -74,7 +76,7 @@ function initialize() {
 	var marker = new google.maps.Marker({
 	    position: myLatlng,
 	    map: map,
-	    title: 'Downtown Location 200 East 2nd Avenue Spokane, WA 99202'
+	    title: 'Location'
 	});
 
 	google.maps.event.addListener(marker, 'click', function() {

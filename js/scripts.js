@@ -65,7 +65,7 @@ function initialize() {
 
 	var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
-	var contentString = 'Location';
+	var contentString = 'Ltion';
 
 	  var infowindow = new google.maps.InfoWindow({
 	      content: contentString

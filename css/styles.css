@@ -166,7 +166,7 @@ header nav ul li ul li:hover > ul {
 .mobile_nav select {
   display: none;
   width: 100%;
-  background: #42b3e5;
+  background: #D5D6D8;
   color: white;
   height: 30px;
   -webkit-border-radius: 0;
@@ -600,8 +600,6 @@ Custom Attributes if required for each device layout.
 
 
 
-
-
 @media (min-width: 480px) and (max-width: 767px) {
   .boxes {
     margin-top: 20px; }
@@ -655,6 +653,10 @@ Custom Attributes if required for each device layout.
   .copyright {
     text-align: center;
     font-size: .7em; } }
+
+
+
+
 @media (min-width: 0px) and (max-width: 479px) {
   .boxes {
     margin-top: 20px; }

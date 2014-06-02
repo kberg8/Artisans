@@ -350,14 +350,14 @@ footer h1 {
   font-size: 1.4em;
   font-family: "Open Sans", "sans-serif";
   font-weight: 400;
-  margin: 10px 20px; }
+  margin: 20px 10px; }
 
 .main h2 {
   color: #541E3A;
   font-size: 1.1em;
   font-family: "Open Sans", "sans-serif";
   font-weight: 400;
-  margin: 0px 20px; }
+  margin: 0px 10px; }
 
 footer h1 {
   color: white; }
@@ -377,6 +377,23 @@ footer .divider {
   height: 2px;
   margin-left: 20px;
   margin-bottom: 10px; }
+
+.main .container ul {
+  color: #333333;
+  font-size: .9em;
+  font-family: "Open Sans", "sans-serif";
+  font-weight: 100;
+  padding: 7px 20px;
+}
+
+.main .container ul .email {
+  color: #836374;
+  font-size: .9em;
+  font-family: "Open Sans", "sans-serif";
+  font-style: italic;
+  font-weight: 100;
+  padding: 15px -5px;
+}
 
 #map-canvas {
   width: 100%;

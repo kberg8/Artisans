@@ -92,8 +92,7 @@ header .main_logo span {
   display: inline-block;
   font-family: "Open Sans", "sans-serif";
   font-weight: 400;
-  font-size: 2.25em;
-  line-height: 120px; }
+  font-size: 2.25em; }
 
 header nav ul {
   float: right; }
@@ -106,7 +105,6 @@ header nav ul li a:visited {
   background: white;
   color: #541E3A;
   font-family: "Open Sans", "sans-serif";
-  line-height: 120px;
   text-decoration: none;
   text-transform: uppercase;
   font-size: .75em;
@@ -162,6 +160,12 @@ header nav ul li:hover > ul {
 
 header nav ul li ul li:hover > ul {
   margin-left: 35px; }
+
+#active {
+  background: #836374;
+  color: white;
+
+}
 
 .mobile_nav select {
   display: none;
@@ -526,11 +530,13 @@ Custom Attributes if required for each device layout.
 
   header .main_logo span {
     font-size: 1.75em; } }
+
+
 @media (min-width: 768px) and (max-width: 979px) {
   .boxes .container .row .col_4:nth-child(1),
   .boxes .container .row .col_4:nth-child(2),
   .boxes .container .row .col_4:nth-child(3) {
-    min-height: 200px; }
+    min-height: 250px; }
 
   .boxes {
     margin-top: -235px; }
@@ -571,6 +577,12 @@ Custom Attributes if required for each device layout.
   .slidercontent2 {
     width: 768px;
     margin-left: -382px; }
+
+  nav {
+    display: none; }
+
+  .mobile_nav select {
+    display: block; }
 
   .slidercontent1 {
     font-size: 3em;

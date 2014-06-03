@@ -164,8 +164,9 @@ header nav ul li ul li:hover > ul {
 #active {
   background: #836374;
   color: white;
-
+  line-height: 50px;
 }
+
 
 .mobile_nav select {
   display: none;

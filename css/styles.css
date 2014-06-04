@@ -89,6 +89,14 @@ float: right;}
 .mobile-social-nav a:active {
   color: #541E3A; }
 
+.slideshow {
+max-width: 1200px;
+margin: auto;
+}
+.slideshow img{
+max-width: 100%;
+}
+
 header {
   background: white; }
 

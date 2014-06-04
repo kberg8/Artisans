@@ -64,8 +64,13 @@ float: right;}
 .phonenumber {
   margin-left: 30px; }
 
+.mobile-social-nav {
+  display: block !important;
+}
+
 .mobile-social-nav ul {
-  text-align: center; }
+  text-align: center;
+  display: block; }
 
 .mobile-social-nav ul li {
   display: inline-block;
@@ -85,7 +90,7 @@ float: right;}
   color: #541E3A; }
 
 header {
-  background: white; }
+  background: white;}
 
 header .main_logo span {
   display: inline-block;

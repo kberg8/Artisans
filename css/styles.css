@@ -90,8 +90,7 @@ float: right;}
   color: #541E3A; }
 
 header {
-  background: white;
-width:100%;}
+  background: white; }
 
 header .main_logo span {
   display: inline-block;
@@ -627,7 +626,8 @@ Custom Attributes if required for each device layout.
 
   header .main_logo span {
     line-height: 60px;
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    width: 100%; }
 
   .slider-bar-1,
   .slider-bar-2,

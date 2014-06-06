@@ -240,6 +240,12 @@ footer p {
   color: #e1e1e1;
   padding: 0px 20px; }
 
+.form {
+  font-family: "Open Sans", "sans-serif";
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .boxes a:link,
 .boxes a:visited {
   position: absolute;
